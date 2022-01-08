@@ -9,5 +9,7 @@ module.exports = {
     }
   },
   chainWebpack: config => {},
-  devServer: {}
+  devServer: {
+    proxy: {}
+  }
 }
